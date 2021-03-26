@@ -30,18 +30,41 @@ data.forEach(function(UfoSighting) {
   data.forEach(function(UfoSighting) {
     console.log(UfoSighting);
     var row = tbody.append("tr");
+
+    Object.entries(UfoSighting).forEach(function([key, value]) {
+        console.log(key, value);
+      });
+    });
+
+    // // Step 4: Use d3 to append 1 cell per ufo sighting value  (datetime, city, state, shape etc)
+    data.forEach(function(UfoSighting) {
+        console.log(UfoSighting);
+        var row = tbody.append("tr");
+      
+        Object.entries(UfoSighting).forEach(function([key, value]) {
+              console.log(key, value);
+          //     // Append a cell to the row for each value
+          //     // in the weather report object
+              var cell = row.append("td");
+            });
+          });
+          
+         
+    
+      
+  
+  
+  
+  
+  
+  
+  
+  
   
     
-
-
-
-
-
-
-
-
-
+    
   
   
-
-
+  
+    
+    
