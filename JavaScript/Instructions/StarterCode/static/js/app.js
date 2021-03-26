@@ -62,6 +62,16 @@ data.forEach(function(UfoSighting) {
           cell.text(value);
         });
       });
+
+      var button = d3.select("#datetime");
+
+      
+      function handleClick() {
+        console.log(d3.event.target);
+
+      
+}
+
       
           
          
