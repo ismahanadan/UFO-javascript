@@ -17,6 +17,30 @@ var tbody = d3.select("tbody");
 data.forEach(function(UfoSighting) {
     console.log(UfoSighting);
   });
+
+  // // Step 2:  Use d3 to append one table row `tr` for each data object
+ 
+  data.forEach(function(UfoSighting) {
+    console.log(UfoSighting);
+    var row = tbody.append("tr");
+  });
+  
+  
+  // // Step 3:  Use `Object.entries` to console.log each data value
+  data.forEach(function(UfoSighting) {
+    console.log(UfoSighting);
+    var row = tbody.append("tr");
+  
+    
+
+
+
+
+
+
+
+
+
   
   
 
