@@ -13,13 +13,11 @@ table.attr("class", "table table-striped");
 // Use D3 to select the table body
 var tbody = d3.select("tbody");
 
-
-
-
-
-
-
-
-
+// // Step 1: Loop Through `data` and console.log each data object
+data.forEach(function(UfoSighting) {
+    console.log(UfoSighting);
+  });
+  
+  
 
 
